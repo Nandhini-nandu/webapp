@@ -1,0 +1,198 @@
+26-09-24 
+git, SonarQube, cicd, testing
+SDLC
+XP PROGRAMMING
+INTRO TO DEVOPS, CICD
+TOOLS- DEVOPS KEY TECHNOLOGY BUCKET,JENKINS, SonarQube, git bash
+VIRTUALIZATON
+PIPELINE CREATION
+SLACK - flatforms interact with software teams or clients
+		communication btw end to end developers or client to developers
+JIRA
+exercise- 1
+SDLC- software development life cycle
+Definition- process of building a software project
+SDLC is an structured software development process. By using it we develop applications
+STAGES
+Requirements:-
+		Objectives- gather and document what the software needs to accomplish
+		Activities- Conduct interviews with potential users
+				  Collect user stories to understand needs
+		EXAMPLE:
+			Users need to: Add tasks, view tasks, delete tasks
+Planning:-
+		Goal- Define project scope, timeline, and resources
+		Example: To-Do List App plan
+			week 1: Design basic UI
+			week 2: Implement adding and deleting tasks
+			week 3: Test and refine the app
+		Technology stack: HTML, CSS, JavaScript
+		Visual: Jira tasks and timeline
+Design:-
+		Goal- create the app's layout and system design
+		Example- Wireframe for the to do list app
+			task input field and display
+Implementation(coding):- 
+		Goal- Develop the app according to the design
+		ex: coding features for:
+			adding tasks
+			view
+			delete
+Testing:- 
+		Goal- Ensure app works as expected
+Deployment:-
+		Goal- make the app accessible to the user
+Maintenance:-
+		Goal- monitor, update, fix bugs post-deployment
+ 
+		
+MODEL:
+in sdlc there are 5 main models
+waterfall:- it follow sequential, linear approach
+		stages- requirements-> design-> implementation-> verification-> maintenance
+		ideal for projects with clear, unchanging requirements
+v model:- extension of waterfall with a focus on testing
+		each phase has a corresponding testing phase
+		banking websites
+iterative:-
+		development occurs in small cycle or iterations
+		each iteration improve functionality
+		allows for early feedback and adjustment
+
+spiral:-
+		combines iterative development with a focus on risk management
+		each iteration includes risk analysis and prototyping
+		suitable for large, complex projects
+agile:-
+		emphasizes flexibility and collaboration
+		iterative allows for changing requirements
+		promotes close collaboration with stakeholders		
+CORE VALUES OF AGILE:
+-individuals and interactions over process and tools
+-working software over comprehensive documentation
+-customer collaboration over contract negotiation
+-responding to change over following plan
+NEED OF AGILE:
+-changes frequently
+-collaboration
+-faster delivery
+-continuous improvement 
+
+exercise-4
+vcs- keep track the changes of version 
+	revert to previous version
+
+git- open source distributed version control system u can use to track changes in ur files 		
+
+git hub- web interface where u store ur git repositories
+
+GitHub repository: contains all ur project files and each file revision history
+
+users can share code, track changes, manage projects and collaborate with others in real time
+
+working stage- coding
+add .
+
+
+
+exercise-2
+key principles:
+frequent releases
+customer collaboration
+simplicity
+continuous feedback
+collective code ownership
+pair programming
+test driven development
+
+
+Test Driven Development(TDD) :-
+	it is a software development process writing test cases before actual code
+	1.writing tests: first step is to write test case , if it fails it is called red stage
+	2.writing code: next developer write just enough code to make it pass , this is called green flag
+	benefits:
+		catching bugs early
+		improved code quality
+27-09-24
+exercise- 3
+DevOps- it is the combination of development and operations  or integrating  development and operations for faster, higher quality software, collaboration
+development: creating software  product
+operation: providing required infrastructure necessary for running software products
+ci/cd:-CI/CD is an Integrating set of processes , delivering applications continuously to the client 
+It have standard steps 
+1.	Unit testing.
+2.	Static Code analysis.
+3.	Code quality / vulnerability.
+4.	Automation.
+5.	Reports.
+6.	Deployment.
+
+
+
+exercise-13
+aws- amazon work services
+aecs- amazon elastic container service
+
+cloud server:
+	AWS has EC2 service, to create servers on AWS cloud
+	EC2 - elastic compute cloud- storage and operation system
+	AZURE has VIRTUAL MACHINES Service, to create servers on AZURE cloud. 
+Networking & Security:
+	port :- static number
+	https - port no: 80
+	http- hyper text transfer protocol
+	diff btw http and https : security
+	ssh - port no: 22
+key pairs:- to secure the applications or for privacy like we set password for whatsapp
+	consists public key and private key
+we use Ubuntu OS
+
+
+ssh->key->os->ip address
+
+Kubernetes:- also known as k8s
+		       an open source platform
+			designed by google , now operated by cncf- cloud native computing foundation
+			auto deploy, auto scaling, auto operate
+			Kubernetes helps manage containers (like Docker) across clusters of machines
+docker:- like a normal software or tool in 2013 which knows containerisation 
+		features:-
+		>Container Orchestration
+		>Scaling
+		>Load Balancing
+		>Self-Healing
+		>Service Discovery & Networking
+
+exercise-5
+
+static code analysis:-
+			analysing source code without actually executing it
+			it involves:- potential issues
+					    vulnerabilities
+					    coding standards
+					    best practices	
+			syntax errors and typos
+			unused variables and methods
+			code duplication
+			security vulnerabilities(e.g., sql injection, cross-site scripting)
+			memory leaks and resource leaks
+			performance issues
+			conformance to coding standards and style guidelines 
+detecting of static code analysis we use a tool called sonarqube
+	sonarqube- open source flatform developed by sonarsource for continuous inspection of Code Quality- a dashboard  
+        sonarscanner-anlayze the code
+	sonarsource-develop sonarqube
+
+
+			
+					
+	
+	
+	
+						
+
+pipeline is used in - LinkedIn, Zomato
+ 
+
+
+
